@@ -1,7 +1,7 @@
 {
   "currentUser": {
     "image": { 
-      "png": "src/public/images/avatars/image-juliusomo.png",
+      "png": "src/public/images/image-juliusomo.png",
       "webp": "./images/avatars/image-juliusomo.webp"
     },
     "username": "juliusomo"
@@ -14,7 +14,7 @@
       "score": 12,
       "user": {
         "image": { 
-          "png": "src/public/images/avatars/image-amyrobson.png",
+          "png": "src/public/images/image-amyrobson.png",
           "webp": "./images/avatars/image-amyrobson.webp"
         },
         "username": "amyrobson"
@@ -28,7 +28,7 @@
       "score": 5,
       "user": {
         "image": { 
-          "png": "src/public/images/avatars/image-maxblagun.png",
+          "png": "src/public/images/image-maxblagun.png",
           "webp": "./images/avatars/image-maxblagun.webp"
         },
         "username": "maxblagun"
@@ -42,7 +42,7 @@
           "replyingTo": "maxblagun",
           "user": {
             "image": { 
-              "png": "src/public/images/avatars/image-ramsesmiron.png",
+              "png": "src/public/images/image-ramsesmiron.png",
               "webp": "./images/avatars/image-ramsesmiron.webp"
             },
             "username": "ramsesmiron"
@@ -56,7 +56,7 @@
           "replyingTo": "ramsesmiron",
           "user": {
             "image": { 
-              "png": "src/public/images/avatars/image-juliusomo.png",
+              "png": "src/public/images/image-juliusomo.png",
               "webp": "./images/avatars/image-juliusomo.webp"
             },
             "username": "juliusomo"

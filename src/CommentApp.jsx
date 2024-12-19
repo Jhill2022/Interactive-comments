@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { v4 as uuid } from "uuid";
-import Minus from "./public/images/icon-minus.svg";
-import Plus from "./public/images/icon-plus.svg";
-import Reply from "./public/images/icon-reply.svg";
-import Delete from "./public/images/icon-delete.svg";
-import Edit from "./public/images/icon-edit.svg";
+import Minus from "/images/icon-minus.svg";
+import Plus from "/images/icon-plus.svg";
+import Reply from "/images/icon-reply.svg";
+import Delete from "/images/icon-delete.svg";
+import Edit from "/images/icon-edit.svg";
 import data from "./data.json";
 
 const CommentApp = () => {

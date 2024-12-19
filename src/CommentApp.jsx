@@ -235,7 +235,8 @@ const Comment = ({
     if (replyText.trim()) {
       const newReply = {
         id: uuid(),
-        content: `@${comment.user.username} ${replyText}`,
+        content: replyText,
+        replyingTo: comment.user.username,
         createdAt: "Just Now",
         score: 0,
         user: currentUser,
@@ -333,14 +334,16 @@ const Comment = ({
               </div>
             ) : (
               <p className="text-[#67727E] text-md font-normal">
-                {comment.replyingTo && comment.user.username && (
-                  <span className="text-[#5357B6] font-bold">
+                {comment.replyingTo  && (
+                  <a href="#" className="text-[#5357B6] font-bold">
                     @{comment.replyingTo}{" "}
-                  </span>
+                  </a>
                 )}
                 {comment.content}
               </p>
             )}
+
+
           </div>
         </div>
       </li>
